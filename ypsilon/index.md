@@ -9,7 +9,7 @@ permalink: /ypsilon/
 
 (**process** *args ...*)
 
-```scheme
+```
 (import (core) (ypsilon process))
 
 (let ()
