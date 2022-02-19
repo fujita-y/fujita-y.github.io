@@ -7,7 +7,7 @@ permalink: /ypsilon/
 
 # System process invocation
 
-(**process** _command:string_ _args:string ..._)
+(**process** _command_ _args ..._)
 
 ```
 (import (core) (ypsilon process))
