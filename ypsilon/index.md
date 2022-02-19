@@ -1,23 +1,10 @@
 ---
 layout: default
-title: "(ypsilon process)"
+title: "API Reference"
 description: "Ypsilon: R7RS/R6RS Scheme Implementation"
 permalink: /ypsilon/
 ---
 
-# System process invocation
+# Standard Libraries
 
-(**process** _command_ _args ..._)
-
-```
-(import (core) (ypsilon process))
-
-(let ()
-  (let-values (((pid stdin stdout stderr) (process "uname" "-s" "-p")))
-    (format #t "stdout: ~a" (get-string-all stdout))
-    (format #t "exit: ~a~%" (process-wait pid #f))))
-
-; prints
-; stdout: Linux aarch64
-; exit: 0
-```
+[\[R6RS\] Base Library and Standard Libraries](r6rs.html)
