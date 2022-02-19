@@ -7,7 +7,7 @@ permalink: /ypsilon/
 
 # System process invocation
 
-#### Sample code
+Procedure: process args ...
 
 ```scheme
 (import (core) (ypsilon process))
