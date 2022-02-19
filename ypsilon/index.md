@@ -13,8 +13,10 @@ permalink: /ypsilon/
 (import (core) (ypsilon process))
 
 (let ()
-  (let-values (((pid stdin stdout stderr) (process "uname")))
+  (let-values (((pid stdin stdout stderr) (process "uname" "-s" "-p")))
     (format #t "stdout: ~a" (get-string-all stdout))
-    (format #t "stderr: ~a~%" (get-string-all stderr))
-    (format #t "exit:~a~%" (process-wait pid #f))))
+    (format #t "exit: ~a~%" (process-wait pid #f))))
+; prints
+stdout: Linux aarch64
+exit: 0
 ```
