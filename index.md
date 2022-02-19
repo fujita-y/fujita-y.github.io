@@ -1,4 +1,4 @@
 ---
 layout: default
 ---
-# Ypsilon: (ypsilon process)
+# Ypsilon: R7RS/R6RS Scheme Implementation
