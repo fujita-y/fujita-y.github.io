@@ -16,6 +16,7 @@ permalink: /ypsilon/
   (let-values (((pid stdin stdout stderr) (process "uname" "-s" "-p")))
     (format #t "stdout: ~a" (get-string-all stdout))
     (format #t "exit: ~a~%" (process-wait pid #f))))
+
 ; prints
 ; stdout: Linux aarch64
 ; exit: 0
