@@ -17,6 +17,6 @@ permalink: /ypsilon/
     (format #t "stdout: ~a" (get-string-all stdout))
     (format #t "exit: ~a~%" (process-wait pid #f))))
 ; prints
-stdout: Linux aarch64
-exit: 0
+; stdout: Linux aarch64
+; exit: 0
 ```
