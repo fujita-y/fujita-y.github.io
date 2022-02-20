@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "API Reference"
-description: "Ypsilon: R7RS/R6RS Scheme Implementation"
+title: "Ypsilon: R7RS/R6RS Scheme Implementation"
+description: "API Reference"
 permalink: /ypsilon/
 ---
 
