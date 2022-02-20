@@ -2,7 +2,7 @@
 layout: default
 title: "API Reference"
 description: "Ypsilon: R7RS/R6RS Scheme Implementation"
-permalink: /ypsilon/
+permalink: /ypsilon-api/
 ---
 
 # Standard Libraries
