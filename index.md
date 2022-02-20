@@ -2,4 +2,4 @@
 layout: default
 title: "fujita-y.github.io"
 ---
-[Ypsilon API reference](ypsilon/)
+* [Ypsilon API reference](ypsilon-api/)
