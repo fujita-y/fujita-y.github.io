@@ -207,7 +207,7 @@
           "&bull; <a href=\"https://github.com/fujita-y/ypsilon\">Project Home</a> \
            &bull; <a href=\"index.html\">Document Home</a>")
 (html-put 0 html "</div>")
-(html-put 0 html "<div class=\"library_head\">[R6RS] Base Library and Standard Libraries</div>")
+(html-put 0 html "<div class=\"library_head\">[R6RS] Base library and standard libraries</div>")
 (html-put 0 html "<div class=\"library_body\">")
 ;;
 (html-put 0 html "<table class=\"abstract_box\" border=\"0\">")

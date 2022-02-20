@@ -7,4 +7,4 @@ permalink: /ypsilon/
 
 # Standard Libraries
 
-[\[R6RS\] Base Library and Standard Libraries](r6rs.html)
+[\[R6RS\] Base library and standard libraries](r6rs.html)
