@@ -1,6 +1,3 @@
-;#!/usr/bin/env ypsilon
-;               #!r6rs
-
 (import (core)
         (rnrs)
         (rnrs eval)
@@ -376,4 +373,3 @@
 (make-link-box html '(rnrs unicode) "Unicode")
 
 (html-put 0 html "</div>")
-
