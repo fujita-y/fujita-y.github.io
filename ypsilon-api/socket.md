@@ -35,7 +35,7 @@ permalink: /ypsilon-api/socket
 
 ##### `(call-with-socket <socket> <procedure>)` &nbsp; procedure
 
-- Calls a `<procedure>` with a `<socket>` as an argument.
+- Calls `<procedure>` with `<socket>` as an argument.
 - This procedure has an analogy to `call-with-port` of `(rnrs io ports)`.
 - If `<procedure>` returns, socket is closed implicitly, and `call-with-socket` returns a value returned by `<procedure>`.
 
@@ -74,7 +74,7 @@ permalink: /ypsilon-api/socket
 
 ##### `(socket-send <socket> <bytevector> <flags>)` &nbsp; procedure
 
-- Sends a binary data block `<bytevector>` to a `<socket>`.
+- Sends a binary data block `<bytevector>` to `<socket>`.
 > `socket-send` uses send(2) to send data. The arguments `<flags>` will be passed to send(2) as a correspondent parameter. Refer to send(2) manual page for details.
 
 ##### `(socket-recv <socket> <flags>)` &nbsp; procedure
@@ -84,16 +84,16 @@ permalink: /ypsilon-api/socket
 
 ##### `(socket-close <socket>)` &nbsp; procedure
 
-- Closes a `<socket>`.
+- Closes `<socket>`.
 
 ##### `(socket-shutdown <socket> <how>)` &nbsp; procedure
 
-- Shutdowns a `<socket>`.
+- Shutdowns `<socket>`.
 - `<how>` is either `SHUT_RD` `SHUT_WR` `SHUT_RDWR`.
 
 ##### `(shutdown-output-port <port>)` &nbsp; procedure
 
-- Flushes `<port>` output, then shutdowns output connection of a socket that associated with a `<port>`.
+- Flushes `<port>` output, then shutdowns output connection of a socket that associated with `<port>`.
 
 #### Constants
 ```
@@ -109,6 +109,3 @@ MSG_PEEK        MSG_TRUNC       MSG_FIN           MSG_ERRQUEUE
 MSG_DONTROUTE   MSG_DONTWAIT    MSG_SYN           MSG_NOSIGNAL
 MSG_CTRUNC      MSG_EOR         MSG_CONFIRM       MSG_MORE
 ```
-
-#### Sample application
-
