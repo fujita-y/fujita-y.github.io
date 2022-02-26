@@ -127,7 +127,7 @@ bv-mapping ;=> #<bytevector-mapping 0x2e28000 8>
 
 ##### `(make-c-string <string>)` &nbsp; procedure
 
-- Returns a bytevector contains a C string.
+- Returns a new bytevector containing a C string.
 <br /><br />
 ```lisp
 (import (rnrs) (ypsilon c-types))
@@ -136,7 +136,7 @@ bv-mapping ;=> #<bytevector-mapping 0x2e28000 8>
 
 ##### `(bytevector-c-strlen <bytevector>)` &nbsp; procedure
 
-- Returns a C string length in `<bytevector>`.
+- Returns the length of the C string stored in `<bytevector>`.
 <br /><br />
 ```lisp
 (import (rnrs) (ypsilon c-types))
@@ -162,7 +162,7 @@ bv ;=> #u8(255 254 253 252 251 250 249 248)
 
 - Stores a C value to a bytevector
 - `{type}` is either `bool` `char` `short` `int` `long` `long-long` `int8_t` `int16_t` `int32_t` `int64_t` `float` `double` `void*`.
-- These procedures accept unsigned values if they are within expected interval, like a C type casting between unsigned and signed value.
+- These procedures accept unsigned values if they are within expected interval, like a C type casting between unsigned and signed types.
 <br /><br />
 ```lisp
 (import (rnrs) (ypsilon c-types))
@@ -176,7 +176,7 @@ bv ;=> #u8(255 254 253 252 251 250 249 248)
 
 ##### `(make-c-{type} <value>)` &nbsp; procedure
 
-- Returns a bytevector contains a C value.
+- Returns a new bytevector containing a C value.
 - `{type}` is either `bool` `char` `short` `int` `long` `long-long` `int8_t` `int16_t` `int32_t` `int64_t` `float` `double` `void*`.
 
 ##### `(c-{type}-ref <location>)` &nbsp; procedure

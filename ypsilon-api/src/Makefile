@@ -7,7 +7,7 @@
 
 .PHONY : all clean install test distclean
 
-TARGET_FILES = 	libref.ypsilon.c-types.html libref.ypsilon.socket.html
+TARGET_FILES =
 
 all: $(TARGET_FILES) r6rs
 	@cp base.css ../base.css

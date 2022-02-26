@@ -8,7 +8,7 @@ permalink: /ypsilon-api/c-ffi
 
 ##### `(c-function <ret> <name> (<args> ...))` &nbsp; syntax<br />`(c-function <ret> <name> (<args> ...) (<varargs> ...))` &nbsp; syntax
 
-- Generates a C function callout procedure.
+- Generates a C callout function procedure.
 - `<name>` is a C function name.
 - `<ret>`, `<args>`, and `<varargs>` are C data types.
 - `<varargs>` are optional for variadic functions.
@@ -26,13 +26,13 @@ permalink: /ypsilon-api/c-ffi
 n ;=> 14
 ```
 
-##### `(c-function/weak <ret> <name> (<args> ...))` &nbsp; syntax
+##### `(c-function/weak <ret> <name> (<args> ...))` &nbsp; syntax<br />`(c-function/weak <ret> <name> (<args> ...) (<varargs> ...))` &nbsp; syntax
 
-- Unlike `c-function`, defer resolving C function reference until first call.
+- Unlike `c-function`, this variant defer resolving C function reference until first call.
 
 ##### `(c-callback <ret> (<args> ...) <procedure>)` &nbsp; syntax
 
-- Generates a C function callback procedure.
+- Generates a C callback function procedure.
 - `<ret>` and `<args>` are C data types.
 - Valid C data types are same with `c-function`.
 <br /><br />
