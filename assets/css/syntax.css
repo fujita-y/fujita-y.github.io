@@ -75,6 +75,7 @@
 }
 .highlight .k, .highlight .kv {
   color: #567482;
+  font-weight: normal;
 }
 .highlight .mf {
   color: #258989;
