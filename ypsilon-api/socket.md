@@ -29,8 +29,7 @@ permalink: /ypsilon-api/socket
 <br /><br />
 ```lisp
 (import (rnrs) (ypsilon socket))
-(make-server-socket "8080")
-;=> #<server-socket tcp stream 0.0.0.0:8080>")))
+(make-server-socket "8080") ;=> #<server-socket tcp stream 0.0.0.0:8080>")))
 ```
 
 ##### `(call-with-socket <socket> <procedure>)` &nbsp; procedure
