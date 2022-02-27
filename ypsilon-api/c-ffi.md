@@ -13,7 +13,7 @@ permalink: /ypsilon-api/c-ffi
 - `<ret>`, `<args>`, and `<varargs>` are C data types.
 - `<varargs>` are for variadic functions.
 - Valid C data types are `void` `bool` `char` `short` `int` `long` `long-long` `unsigned-short` `unsigned-int` `unsigned-long` `unsigned-long-long` `int8_t` `int16_t` `int32_t` `int64_t` `uint8_t` `uint16_t` `uint32_t` `uint64_t` `float` `double` `size_t` `void*`.
-- C function refernce is resolved during form evaluation.
+- C function reference is resolved during form evaluation.
 <br /><br />
 ```lisp
 (import (rnrs) (ypsilon c-ffi) (ypsilon c-types))
