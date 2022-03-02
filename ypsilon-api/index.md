@@ -14,3 +14,4 @@ permalink: /ypsilon-api/
 - [(ypsilon c-ffi) — C foreign function interface](c-ffi.html)
 - [(ypsilon c-types) — C data types interface](c-types.html)
 - [(ypsilon socket) — Socket interface](socket.html)
+- [(ypsilon process) — Posix process interface](process.html)
