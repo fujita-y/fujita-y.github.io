@@ -14,10 +14,6 @@ permalink: /ypsilon-api/
 - [\[R7RS Large\] (scheme comparator) — SRFI: 128](https://srfi.schemers.org/srfi-128/)
 - [\[R7RS Large\] (scheme sort) — SRFI: 132](https://srfi.schemers.org/srfi-132/)
 
-# Common Libraries
-
-- [(common pregexp) — Portable regular expressions for Scheme](https://ds26gte.github.io/pregexp/index.html)
-
 # SRFI Libraries
 
 - [(srfi 1) (srfi :1 lists) — List Library](https://srfi.schemers.org/srfi-1/)
@@ -42,6 +38,10 @@ permalink: /ypsilon-api/
 - [(srfi 125) (srfi :125 hashtables) — Intermediate hash tables](https://srfi.schemers.org/srfi-125/)
 - [(srfi 128) (srfi :128 comparators) — Comparators (reduced)](https://srfi.schemers.org/srfi-128/)
 - [(srfi 132) (srfi :132 sorting) — Sort Libraries](https://srfi.schemers.org/srfi-132/)
+
+# Common Libraries
+
+- [(common pregexp) — Portable regular expressions for Scheme](https://ds26gte.github.io/pregexp/index.html)
 
 # Ypsilon Libraries
 
