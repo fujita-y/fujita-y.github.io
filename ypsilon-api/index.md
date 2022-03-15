@@ -45,7 +45,6 @@ permalink: /ypsilon-api/
 
 # Ypsilon Libraries
 
-- [(ypsilon dev) — Developer tools](devtools.html)
 - [(ypsilon c-ffi) — C foreign function interface](c-ffi.html)
 - [(ypsilon c-types) — C data types interface](c-types.html)
 - [(ypsilon socket) — Socket interface](socket.html)
