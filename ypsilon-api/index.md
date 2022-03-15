@@ -7,7 +7,7 @@ permalink: /ypsilon-api/
 
 # Standard Libraries
 
-- [\[R6RS\] Base library and standard libraries](r6rs.html)
+- [\[R6RS Full\] Base library and standard libraries](r6rs.html)
 - [\[R7RS Small\] Standard libraries](https://small.r7rs.org/attachment/r7rs.pdf)
 - [\[R7RS Large\] (scheme list) — SRFI: 1](https://srfi.schemers.org/srfi-1/)
 - [\[R7RS Large\] (scheme hash-table) — SRFI: 125](https://srfi.schemers.org/srfi-125/)
@@ -45,7 +45,12 @@ permalink: /ypsilon-api/
 
 # Ypsilon Libraries
 
+- [(ypsilon dev) — Developer tools](devtools.html)
 - [(ypsilon c-ffi) — C foreign function interface](c-ffi.html)
 - [(ypsilon c-types) — C data types interface](c-types.html)
 - [(ypsilon socket) — Socket interface](socket.html)
 - [(ypsilon process) — Posix process interface](process.html)
+
+# Core Library
+
+- [(core) — Built-in syntaxes and procedures](core.html)
