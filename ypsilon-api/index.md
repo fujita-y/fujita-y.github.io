@@ -34,7 +34,7 @@ permalink: /ypsilon-api/
 - [(srfi 42) (srfi :42 eager-comprehensions) — Eager Comprehensions](https://srfi.schemers.org/srfi-41/)
 - [(srfi 48) (srfi :48 intermediate-format-strings) — Intermediate Format Strings](https://srfi.schemers.org/srfi-48/)
 - [(srfi 64) (srfi :64 testing) — A Scheme API for test suites](https://srfi.schemers.org/srfi-64/)
-- [(srfi 98) (srfi :98 testing) — An interface to access environment variables](https://srfi.schemers.org/srfi-98/)
+- [(srfi 98) (srfi :98 os-environment-variables) — An interface to access environment variables](https://srfi.schemers.org/srfi-98/)
 - [(srfi 125) (srfi :125 hashtables) — Intermediate hash tables](https://srfi.schemers.org/srfi-125/)
 - [(srfi 128) (srfi :128 comparators) — Comparators (reduced)](https://srfi.schemers.org/srfi-128/)
 - [(srfi 132) (srfi :132 sorting) — Sort Libraries](https://srfi.schemers.org/srfi-132/)
