@@ -1,4 +1,4 @@
-# GitHub pages for Ypsilon documents
+# GitHub pages
 
 - [GitHub project page](https://github.com/fujita-y/ypsilon)
-- [API Reference](https://fujita-y.github.io/ypsilon-api/)
+- [Ypsilon API Reference](https://fujita-y.github.io/ypsilon-api/)
