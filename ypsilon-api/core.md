@@ -59,7 +59,7 @@ permalink: /ypsilon-api/core
 ##### `(collect [<compaction>])` &nbsp; procedure
 
 - When `<compaction>` is #t, perfoms a heap compaction and returns after finished.
-- Otherwise starts a concurrent garbage collection, and returns immediately.
+- Otherwise starts a concurrent garbage collection and returns immediately.
 
 ##### `(collect-notify <boolean>)` &nbsp; parameter
 
