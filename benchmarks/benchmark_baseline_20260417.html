@@ -155,7 +155,7 @@
 <body>
     <header class="page-header">
         <h1>Scheme Implementation Benchmark</h1>
-        <p class="subtitle">Gambit Benchmarks &mdash; Real / User Time (seconds, lower is better) &mdash; Trimmed average of 7 runs (min/max excluded) &mdash; 2026-05-17 23:40:33</p>
+        <p class="subtitle">Gambit Benchmarks &mdash; Real / User Time (seconds, lower is better) &mdash; Trimmed average of 7 runs (min/max excluded) &mdash; 2026-04-17 16:08:41</p>
     </header>
 
     <div class="legend-bar">
@@ -266,25 +266,25 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.614253s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.817541s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.619853s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.831401s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.917381s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.038484s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.921324s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.040169s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
                         <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.840000s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.138000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.130000s</td>
                     </tr>
                 </table>
                 <script>
                     createBarChart("chart1",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.614253, 0.917381, 0.84],
-                        [0.817541, 1.038484, 1.138],
+                        [0.619853, 0.921324, 0.84],
+                        [0.831401, 1.040169, 1.13],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -303,25 +303,25 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.200276s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.375503s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.384660s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.734871s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.376777s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.740520s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.379399s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.741335s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
                         <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.290000s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.564000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.544000s</td>
                     </tr>
                 </table>
                 <script>
                     createBarChart("chart2",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.200276, 0.376777, 0.29],
-                        [0.375503, 0.74052, 0.564],
+                        [1.38466, 0.379399, 0.29],
+                        [1.734871, 0.741335, 0.544],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -340,13 +340,13 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.237285s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.341750s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.232231s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.342338s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.354215s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.522499s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.356032s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.520972s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
@@ -357,8 +357,8 @@
                 <script>
                     createBarChart("chart3",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.237285, 0.354215, 0.296],
-                        [0.34175, 0.522499, 0.448],
+                        [0.232231, 0.356032, 0.296],
+                        [0.342338, 0.520972, 0.448],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -377,25 +377,25 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.319560s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.440833s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.302469s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.420821s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.465678s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.807357s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.467702s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.806622s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.484000s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.802000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.492000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.784000s</td>
                     </tr>
                 </table>
                 <script>
                     createBarChart("chart4",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.31956, 0.465678, 0.484],
-                        [0.440833, 0.807357, 0.802],
+                        [0.302469, 0.467702, 0.492],
+                        [0.420821, 0.806622, 0.784],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -414,25 +414,25 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.228338s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.303753s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.228998s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.314317s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.346528s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.469506s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.346815s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.465908s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
                         <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.200000s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.286000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.284000s</td>
                     </tr>
                 </table>
                 <script>
                     createBarChart("chart5",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.228338, 0.346528, 0.2],
-                        [0.303753, 0.469506, 0.286],
+                        [0.228998, 0.346815, 0.2],
+                        [0.314317, 0.465908, 0.284],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -451,25 +451,25 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.340338s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.495553s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.346080s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.496486s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.431577s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.850363s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.434775s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.854852s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.528000s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.928000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.530000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.898000s</td>
                     </tr>
                 </table>
                 <script>
                     createBarChart("chart6",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.340338, 0.431577, 0.528],
-                        [0.495553, 0.850363, 0.928],
+                        [0.34608, 0.434775, 0.53],
+                        [0.496486, 0.854852, 0.898],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -488,25 +488,25 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.255386s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.357352s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.260641s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.364390s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.384238s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.696015s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.385702s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.699700s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.508000s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.792000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.512000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.774000s</td>
                     </tr>
                 </table>
                 <script>
                     createBarChart("chart7",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.255386, 0.384238, 0.508],
-                        [0.357352, 0.696015, 0.792],
+                        [0.260641, 0.385702, 0.512],
+                        [0.36439, 0.6997, 0.774],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -525,25 +525,25 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.181422s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.181378s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.181055s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.180970s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.989802s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.989690s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.990284s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.990387s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.920000s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.920000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.922000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.922000s</td>
                     </tr>
                 </table>
                 <script>
                     createBarChart("chart8",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.181422, 0.989802, 0.92],
-                        [0.181378, 0.98969, 0.92],
+                        [0.181055, 0.990284, 0.922],
+                        [0.18097, 0.990387, 0.922],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -562,25 +562,25 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.062373s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.062359s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.062433s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.062394s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.313352s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.313315s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.313614s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.313563s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
                         <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.490000s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.486000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.490000s</td>
                     </tr>
                 </table>
                 <script>
                     createBarChart("chart9",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.062373, 0.313352, 0.49],
-                        [0.062359, 0.313315, 0.486],
+                        [0.062433, 0.313614, 0.49],
+                        [0.062394, 0.313563, 0.49],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -599,25 +599,25 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.159881s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.159839s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.161895s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.161817s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.652211s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.652125s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.646300s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.646195s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.572000s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.572000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.578000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.574000s</td>
                     </tr>
                 </table>
                 <script>
                     createBarChart("chart10",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.159881, 0.652211, 0.572],
-                        [0.159839, 0.652125, 0.572],
+                        [0.161895, 0.6463, 0.578],
+                        [0.161817, 0.646195, 0.574],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -641,13 +641,13 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.162508s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.187654s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.179550s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.206791s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.271272s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.309660s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.271752s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.310021s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
@@ -658,8 +658,8 @@
                 <script>
                     createBarChart("chart11",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.162508, 0.271272, 0.358],
-                        [0.187654, 0.30966, 0.51],
+                        [0.17955, 0.271752, 0.358],
+                        [0.206791, 0.310021, 0.51],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -678,25 +678,25 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.080976s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.080944s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.080973s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.080959s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.524198s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.524137s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.525810s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.525670s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.486000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.480000s</td>
                         <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.480000s</td>
                     </tr>
                 </table>
                 <script>
                     createBarChart("chart12",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.080976, 0.524198, 0.486],
-                        [0.080944, 0.524137, 0.48],
+                        [0.080973, 0.52581, 0.48],
+                        [0.080959, 0.52567, 0.48],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -715,25 +715,25 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.855188s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.855078s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.760183s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.760062s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.508815s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">2.443146s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.511369s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">2.448799s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">2.842000s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">3.536000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">2.864000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">3.494000s</td>
                     </tr>
                 </table>
                 <script>
                     createBarChart("chart13",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.855188, 1.508815, 2.842],
-                        [0.855078, 2.443146, 3.536],
+                        [0.760183, 1.511369, 2.864],
+                        [0.760062, 2.448799, 3.494],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -752,25 +752,25 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.296428s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.301740s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.306603s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.312523s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.634860s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.255606s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.640572s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.257414s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.996000s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.448000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.994000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.392000s</td>
                     </tr>
                 </table>
                 <script>
                     createBarChart("chart14",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.296428, 0.63486, 0.996],
-                        [0.30174, 1.255606, 1.448],
+                        [0.306603, 0.640572, 0.994],
+                        [0.312523, 1.257414, 1.392],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -789,25 +789,25 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.217954s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.249258s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.221191s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.255627s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.493387s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.978138s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.497354s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.979956s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.822000s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.124000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.816000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.078000s</td>
                     </tr>
                 </table>
                 <script>
                     createBarChart("chart15",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.217954, 0.493387, 0.822],
-                        [0.249258, 0.978138, 1.124],
+                        [0.221191, 0.497354, 0.816],
+                        [0.255627, 0.979956, 1.078],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -826,25 +826,25 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.606932s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.648380s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.473859s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.519487s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.019400s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.187987s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.016133s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.184670s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.360000s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.512000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.362000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.496000s</td>
                     </tr>
                 </table>
                 <script>
                     createBarChart("chart16",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.606932, 1.0194, 1.36],
-                        [0.64838, 1.187987, 1.512],
+                        [0.473859, 1.016133, 1.362],
+                        [0.519487, 1.18467, 1.496],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -863,13 +863,13 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.208802s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.208771s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.208828s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.208788s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.888434s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.888312s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.907399s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.908057s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
@@ -880,8 +880,8 @@
                 <script>
                     createBarChart("chart17",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.208802, 0.888434, 0.414],
-                        [0.208771, 0.888312, 0.416],
+                        [0.208828, 0.907399, 0.414],
+                        [0.208788, 0.908057, 0.416],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -900,25 +900,25 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.356329s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.356301s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.327553s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.327296s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.680455s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.343543s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.686798s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.352460s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.210000s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.636000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.206000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.596000s</td>
                     </tr>
                 </table>
                 <script>
                     createBarChart("chart18",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.356329, 0.680455, 1.21],
-                        [0.356301, 1.343543, 1.636],
+                        [0.327553, 0.686798, 1.206],
+                        [0.327296, 1.35246, 1.596],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -942,25 +942,25 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.098043s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.098027s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.098076s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.098064s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.616500s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">3.172757s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">1.624325s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">3.175798s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.428000s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.428000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.430000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.430000s</td>
                     </tr>
                 </table>
                 <script>
                     createBarChart("chart19",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.098043, 1.6165, 0.428],
-                        [0.098027, 3.172757, 0.428],
+                        [0.098076, 1.624325, 0.43],
+                        [0.098064, 3.175798, 0.43],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -979,25 +979,25 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.259772s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.366908s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.261852s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.379650s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.565061s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.645693s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.561105s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.639998s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.460000s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.502000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.464000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.498000s</td>
                     </tr>
                 </table>
                 <script>
                     createBarChart("chart20",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.259772, 0.565061, 0.46],
-                        [0.366908, 0.645693, 0.502],
+                        [0.261852, 0.561105, 0.464],
+                        [0.37965, 0.639998, 0.498],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -1016,25 +1016,25 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.335102s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.610573s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.379708s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.697505s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.445728s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.858719s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.447877s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.846519s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
                         <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.222000s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.262000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.258000s</td>
                     </tr>
                 </table>
                 <script>
                     createBarChart("chart21",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.335102, 0.445728, 0.222],
-                        [0.610573, 0.858719, 0.262],
+                        [0.379708, 0.447877, 0.222],
+                        [0.697505, 0.846519, 0.258],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -1053,25 +1053,25 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.209941s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.310520s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.162178s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.291036s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.412344s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.523254s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.412113s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.521524s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.336000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.338000s</td>
                         <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.340000s</td>
                     </tr>
                 </table>
                 <script>
                     createBarChart("chart22",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.209941, 0.412344, 0.336],
-                        [0.31052, 0.523254, 0.34],
+                        [0.162178, 0.412113, 0.338],
+                        [0.291036, 0.521524, 0.34],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -1090,13 +1090,13 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.430444s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.821680s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.476880s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.887239s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.470293s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.657768s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.469713s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.653387s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
@@ -1107,8 +1107,8 @@
                 <script>
                     createBarChart("chart23",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.430444, 0.470293, 0.252],
-                        [0.82168, 0.657768, 0.274],
+                        [0.47688, 0.469713, 0.252],
+                        [0.887239, 0.653387, 0.274],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -1127,13 +1127,13 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.174632s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.330798s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.207953s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.386722s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.379471s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.753359s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.379655s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.743829s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
@@ -1144,8 +1144,8 @@
                 <script>
                     createBarChart("chart24",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.174632, 0.379471, 0.126],
-                        [0.330798, 0.753359, 0.14],
+                        [0.207953, 0.379655, 0.126],
+                        [0.386722, 0.743829, 0.14],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -1164,25 +1164,25 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.108142s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.159065s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.111654s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.170011s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.332512s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.621333s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.331076s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.618653s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.292000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.294000s</td>
                         <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.300000s</td>
                     </tr>
                 </table>
                 <script>
                     createBarChart("chart25",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.108142, 0.332512, 0.292],
-                        [0.159065, 0.621333, 0.3],
+                        [0.111654, 0.331076, 0.294],
+                        [0.170011, 0.618653, 0.3],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -1201,25 +1201,25 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.133885s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.187911s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.135740s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.197155s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.416641s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.565333s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.415865s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.564630s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.220000s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.232000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.218000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.230000s</td>
                     </tr>
                 </table>
                 <script>
                     createBarChart("chart26",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.133885, 0.416641, 0.22],
-                        [0.187911, 0.565333, 0.232],
+                        [0.13574, 0.415865, 0.218],
+                        [0.197155, 0.56463, 0.23],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -1238,25 +1238,25 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.223864s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.402954s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.210692s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.385379s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.267346s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.527127s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.266941s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.526903s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.162000s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.192000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.160000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.198000s</td>
                     </tr>
                 </table>
                 <script>
                     createBarChart("chart27",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.223864, 0.267346, 0.162],
-                        [0.402954, 0.527127, 0.192],
+                        [0.210692, 0.266941, 0.16],
+                        [0.385379, 0.526903, 0.198],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -1275,13 +1275,13 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.078194s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.099005s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.087564s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.111390s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.225950s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.376705s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.226097s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.376038s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
@@ -1292,8 +1292,8 @@
                 <script>
                     createBarChart("chart28",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.078194, 0.22595, 0.134],
-                        [0.099005, 0.376705, 0.138],
+                        [0.087564, 0.226097, 0.134],
+                        [0.11139, 0.376038, 0.138],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -1312,25 +1312,25 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.138252s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.136016s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.145247s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.142822s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.301728s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.595307s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.303701s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.601027s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
                         <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.440000s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.464000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.460000s</td>
                     </tr>
                 </table>
                 <script>
                     createBarChart("chart29",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.138252, 0.301728, 0.44],
-                        [0.136016, 0.595307, 0.464],
+                        [0.145247, 0.303701, 0.44],
+                        [0.142822, 0.601027, 0.46],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -1349,25 +1349,25 @@
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Nanos</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.172758s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.238522s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.208704s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.281163s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Ypsilon 2.0.9</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.293002s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.394128s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.294665s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.398189s</td>
                     </tr>
                     <tr>
                         <td style="padding:4px 12px;color:#cbd5e1;">Guile 3.0.10</td>
                         <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.190000s</td>
-                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.192000s</td>
+                        <td style="padding:4px 12px;color:#e2e8f0;font-family:'JetBrains Mono',monospace;text-align:right;">0.190000s</td>
                     </tr>
                 </table>
                 <script>
                     createBarChart("chart30",
                         ["Nanos", "Ypsilon 2.0.9", "Guile 3.0.10"],
-                        [0.172758, 0.293002, 0.19],
-                        [0.238522, 0.394128, 0.192],
+                        [0.208704, 0.294665, 0.19],
+                        [0.281163, 0.398189, 0.19],
                         ["rgba(99, 102, 241, 0.85)", "rgba(16, 185, 129, 0.85)", "rgba(245, 158, 11, 0.85)"],
                         ["rgba(99, 102, 241, 1)", "rgba(16, 185, 129, 1)", "rgba(245, 158, 11, 1)"]
                     );
@@ -1378,7 +1378,7 @@
     </div>
 
     <footer class="footer">
-        Generated by benchmark.py &mdash; 7 runs, trimmed average (min/max excluded) &mdash; 2026-05-17 23:40:33
+        Generated by benchmark.py &mdash; 7 runs, trimmed average (min/max excluded) &mdash; 2026-04-17 16:08:41
     </footer>
 </body>
 </html>
